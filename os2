@@ -1,0 +1,16 @@
+}
+]
+} }
+fseek(file, 0, SEEK_SET);
+count = 0;
+printf("First 10 non-numeric characters:");
+while (gets(line, sizeof(line), file)) {
+for (i=0; line[i]!='\0';i++) {
+if(!isdigit(line[i]&& count<10){
+perror("Unable to open file.");
+return 1;
+}findTenNumber(file);
+return 0;
+}
+
+
